@@ -69,5 +69,5 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github.com/BBB-man/BBB-man.github.io.git
+  repository: git@github.com:BBB-man/BBB-man.github.io.git
   branch: master

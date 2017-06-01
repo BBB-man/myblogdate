@@ -59,6 +59,6 @@ path = raw_input("Enter path: ")
 get_imlist(path)
 
 ```
-![image2](upload_image/lu2.jpg)
+![image2](upload_image/lu22.jpg)
 
 ### sign:bman
