@@ -5,7 +5,7 @@ tags:
 ---
 The uses of this tool is about directory traversal, include varies of file type.As you know, the next step is to download these files, and email it to a direct address, that's wonderful.
 工具作用为遍历电脑中指定目录中的所有文件及其路径，可以通过修改源码来指定所遍历的文件类型。
-![image](upload_image/lu.jpg)
+![鹿神](/upload_image/lu.jpg)
 ## Caffee first
 ### Traverse image
 ``` bash

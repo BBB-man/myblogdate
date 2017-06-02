@@ -9,4 +9,4 @@ tags:
 
 [攻防工具](http://www.mamicode.com/info-detail-1150231.html)	[ZombieBoy's Blog](http://www.njstu.net/)	[聂扬帆博客](http://www.jianshu.com/p/ad44231aff32)
 
-[voovode博客](https://voovode.net/)		[逆向初学](hhttp://blog.chinaunix.net/uid-26275986-id-4333402.html)
+[voovode博客](https://voovode.net/)		[逆向初学](http://blog.chinaunix.net/uid-26275986-id-4333402.html)

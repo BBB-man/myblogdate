@@ -21,9 +21,9 @@ $ git config --global user.email "xxxxx@gmail.com"    #enter your email(github r
 $ git config --global user.name "xxxx"		#enter whatever
 ```
 回车到底，此时会默认在c盘中（C:\Users\xxx\.ssh\）目录下生成文件id_rsa/id_rsa.pub。
-![id_rsa.pub](upload_image/id_rsa_pub.jpg)
+![id_rsa.pub](/upload_image/id_rsa_pub.jpg)
 然后将id_rsa.pub文件中的内容复制到github的key文本框中。
-![gitkey](upload_image/gitkey.jpg)
+![gitkey](/upload_image/gitkey.jpg)
 可以通过命令：
 ``` bash
 $ ssh -T git@github.com
