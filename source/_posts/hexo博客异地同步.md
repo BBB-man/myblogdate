@@ -11,7 +11,6 @@ title: hexo博客异地同步
 前提：根据这篇文章[http://thief.one/2017/03/03/Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/]
 已经把家里pc上的内容put到github新项目中（https://github.com/BBB-man/myblogdate）
 1.下载[node.js](https://nodejs.org/en/)，安装，默认会安装npm
-
 2.安装[git](https://github.com/git-for-windows/git/releases)
 注意：认证在此处出现
 	关于github的配置，需要将新机器的SSH公钥添加到github上的https://github.com/settings/keys中,这里是关键。
@@ -31,7 +30,6 @@ $ ssh -T git@github.com
 来验证一下
 
 3.安装hexo    打开cmd, 运行：npm install -g hexo
-
 *创建一个Myblog文件夹
 *把github中的备份文件clone到Myblog中
 ``` bash
@@ -51,12 +49,15 @@ type: git
 repository: git@github.com:BBB-man/BBB-man.github.io.git   #这里改成这个，原先为https的
 branch: master
 ```
-
-
 2. 做完上述的工作，说明认证方式已经没问题了。但是因为某些原因在执行“hexo d”的操作中会报错，原因我就不多说了，直接执行以下命令：
 ``` bash
 $ npm install hexo-deployer-git --save
 ```
 再次推送即可
+3.
+如果出现无法在c盘users/xxx/.ssh/生成ssh密钥的情况，那么使用如下命令：
+``` bash
+$ ssh-keygen -t rsa -C "你的邮箱地址"
+```
 
 ### sign: bman
