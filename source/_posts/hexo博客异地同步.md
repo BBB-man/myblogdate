@@ -51,12 +51,12 @@ type: git
 repository: git@github.com:BBB-man/BBB-man.github.io.git   #这里改成这个，原先为https的
 branch: master
 ```
-
-
 2. 做完上述的工作，说明认证方式已经没问题了。但是因为某些原因在执行“hexo d”的操作中会报错，原因我就不多说了，直接执行以下命令：
 ``` bash
 $ npm install hexo-deployer-git --save
 ```
-再次推送即可
-
+3. 如果出现无法在c盘users/xxx/.ssh/生成ssh密钥的情况，那么使用如下命令：
+``` bash
+$ ssh-keygen -t rsa -C "你的邮箱地址"
+```
 ### sign: bman
