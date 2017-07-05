@@ -53,18 +53,17 @@ branch: master
 ``` bash
 $ npm install hexo-deployer-git --save
 ```
-<<<<<<< HEAD
+
 3. 如果出现无法在c盘users/xxx/.ssh/生成ssh密钥的情况，那么使用如下命令：
 ``` bash
 $ ssh-keygen -t rsa -C "你的邮箱地址"
 ```
 =======
 再次推送即可
-3.
+4.
 如果出现无法在c盘users/xxx/.ssh/生成ssh密钥的情况，那么使用如下命令：
 ``` bash
 $ ssh-keygen -t rsa -C "你的邮箱地址"
 ```
 
->>>>>>> 31a2fcd58fb9101cb1ece9c1a523ca93491d5bbe
 ### sign: bman

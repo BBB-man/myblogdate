@@ -79,7 +79,8 @@ for item in host['data']:
 ```
 下面我罗列了几种(/shodan/host/{ip})   host.get()内部的方法属性
 {
-region_code,ip,area_code,country_name,postal_code,dma_code,country_code,data,os,product,timestamp,asn,banner...   
+region_code,ip,area_code,country_name,postal_code,dma_code,
+country_code,data,os,product,timestamp,asn,banner...   
 }
 
 ## 总结
@@ -94,7 +95,7 @@ print """
         msg3: %s
         msg4: %s
         msg5: %s
-""" % (host.get('region_code', 'n/a'),host.get('area_code', 'n/a'),host.get('asn', 'n/a'),host.get('product', 'n/a'),)
+""" % (host.get('region_code', 'n/a'),host.get('area_code','n/a'),host.get('asn', 'n/a'),host.get('product', 'n/a'),)
 
 ```
 总之，利用这些属性可以查看各种有用的信息，你懂得！！！
