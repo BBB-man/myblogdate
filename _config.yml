@@ -4,10 +4,11 @@
 
 # Site
 title: Limbo
-subtitle:
-description:
+subtitle: 朝闻道，夕可死
+description: #给搜索引擎看的，对站点的描述
 author: zhifeng
 language: zh-Hans.yml
+email:
 timezone: 
 
 # URL
@@ -33,7 +34,7 @@ default_layout: post
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
-render_drafts: false
+render_drafts:      #显示草稿
 post_asset_folder: false
 relative_link: false
 future: true
